@@ -18,11 +18,12 @@
 		9DDBBD262113678F00A55978 /* PlanetsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBBD252113678F00A55978 /* PlanetsCollectionViewController.swift */; };
 		9DDBBD2B2113748200A55978 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBBD2A2113748200A55978 /* SettingsViewController.swift */; };
 		9DDBBD2D211376BE00A55978 /* SettingsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBBD2C211376BE00A55978 /* SettingsKeys.swift */; };
+		BDD7B31823A30FD4008BAD46 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD7B31723A30FD4008BAD46 /* Notifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D163DAE2153758F00C55F30 /* PlanetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailViewController.swift; sourceTree = "<group>"; };
-		9DDBBD032113609700A55978 /* Planets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DDBBD032113609700A55978 /* Planets-Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Planets-Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DDBBD062113609700A55978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DDBBD0B2113609700A55978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DDBBD0D2113609800A55978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,6 +35,7 @@
 		9DDBBD252113678F00A55978 /* PlanetsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsCollectionViewController.swift; sourceTree = "<group>"; };
 		9DDBBD2A2113748200A55978 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		9DDBBD2C211376BE00A55978 /* SettingsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsKeys.swift; sourceTree = "<group>"; };
+		BDD7B31723A30FD4008BAD46 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,7 @@
 		9DDBBD042113609700A55978 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DDBBD032113609700A55978 /* Planets.app */,
+				9DDBBD032113609700A55978 /* Planets-Solution.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +70,7 @@
 			children = (
 				9DDBBD062113609700A55978 /* AppDelegate.swift */,
 				9DDBBD2C211376BE00A55978 /* SettingsKeys.swift */,
+				BDD7B31723A30FD4008BAD46 /* Notifications.swift */,
 				9DDBBD1A211360D500A55978 /* Model */,
 				9DDBBD1C211360E000A55978 /* Model Controller */,
 				9DDBBD272113679300A55978 /* View Controllers */,
@@ -125,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DDBBD022113609700A55978 /* Planets */ = {
+		9DDBBD022113609700A55978 /* Planets-Solution */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DDBBD152113609800A55978 /* Build configuration list for PBXNativeTarget "Planets" */;
+			buildConfigurationList = 9DDBBD152113609800A55978 /* Build configuration list for PBXNativeTarget "Planets-Solution" */;
 			buildPhases = (
 				9DDBBCFF2113609700A55978 /* Sources */,
 				9DDBBD002113609700A55978 /* Frameworks */,
@@ -137,9 +140,9 @@
 			);
 			dependencies = (
 			);
-			name = Planets;
+			name = "Planets-Solution";
 			productName = Planets;
-			productReference = 9DDBBD032113609700A55978 /* Planets.app */;
+			productReference = 9DDBBD032113609700A55978 /* Planets-Solution.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -154,11 +157,10 @@
 				TargetAttributes = {
 					9DDBBD022113609700A55978 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1030;
 					};
 				};
 			};
-			buildConfigurationList = 9DDBBCFE2113609700A55978 /* Build configuration list for PBXProject "Planets" */;
+			buildConfigurationList = 9DDBBCFE2113609700A55978 /* Build configuration list for PBXProject "Planets-Solution" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -171,7 +173,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DDBBD022113609700A55978 /* Planets */,
+				9DDBBD022113609700A55978 /* Planets-Solution */,
 			);
 		};
 /* End PBXProject section */
@@ -197,6 +199,7 @@
 				9DDBBD212113661F00A55978 /* PlanetCollectionViewCell.swift in Sources */,
 				9DDBBD262113678F00A55978 /* PlanetsCollectionViewController.swift in Sources */,
 				9D163DAF2153758F00C55F30 /* PlanetDetailViewController.swift in Sources */,
+				BDD7B31823A30FD4008BAD46 /* Notifications.swift in Sources */,
 				9DDBBD1F211360F500A55978 /* PlanetController.swift in Sources */,
 				9DDBBD072113609700A55978 /* AppDelegate.swift in Sources */,
 				9DDBBD19211360D100A55978 /* Planet.swift in Sources */,
@@ -352,9 +355,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lambdaschool.Planets;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lambdaschool.Planets-Solution";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -370,9 +373,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lambdaschool.Planets;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lambdaschool.Planets-Solution";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -380,7 +383,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DDBBCFE2113609700A55978 /* Build configuration list for PBXProject "Planets" */ = {
+		9DDBBCFE2113609700A55978 /* Build configuration list for PBXProject "Planets-Solution" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DDBBD132113609800A55978 /* Debug */,
@@ -389,7 +392,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DDBBD152113609800A55978 /* Build configuration list for PBXNativeTarget "Planets" */ = {
+		9DDBBD152113609800A55978 /* Build configuration list for PBXNativeTarget "Planets-Solution" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DDBBD162113609800A55978 /* Debug */,
